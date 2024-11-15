@@ -1,0 +1,67 @@
+# Ignore arquivos de build
+bin/
+obj/
+
+# Ignore arquivos de log, debug e temporários
+*.log
+*.tmp
+*.temp
+
+# Ignore arquivos de usuário e de projeto que não são necessários
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorar arquivos de configuração do Visual Studio e do Rider
+.vscode/
+.idea/
+.resharper/
+
+# Ignore cache do Visual Studio
+.vs/
+_ReSharper*/
+
+# Ignorar configurações específicas de publicação
+publish/
+wwwroot/
+
+# Configurações do Emgu CV, caso existam arquivos adicionais de build
+x64/
+x86/
+
+# Arquivos temporários de teste e debug
+TestResults/
+*.pdb
+
+# Ignorar arquivos de pacotes NuGet e dependências locais
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Arquivos de cache do NuGet e do Dotnet
+*.nuget/
+*.dotnet/
+
+# Logs de depuração do Visual Studio
+*.tlog
+*.log
+*.vscode
+
+# Ignorar configurações locais do sistema e de ambiente
+.env
+.env.local
+.env.*.local
+*.config/local
+
+# Ignorar arquivos gerados pelo Visual Studio ao rodar testes
+.trx
+*.coverage
+.coveragexml
+
+# Arquivos relacionados a Docker, se aplicável
+docker-compose.*
+Dockerfile*
